@@ -31,7 +31,7 @@ export function SelectTypography() {
       </SelectTrigger>
       <SelectContent>
         <SelectGroup>
-          <SelectLabel>Typographies</SelectLabel>
+          <SelectLabel className='text-purple-500'>Typographies</SelectLabel>
           <SelectItem value="sans-serif">Sans Serif</SelectItem>
           <SelectItem value="serif">Serif</SelectItem>
           <SelectItem value="monospace">Monospace</SelectItem>

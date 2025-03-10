@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68a95085-dc9b-4c3e-ba51-c1b5d45b5b6d" name="Changes" comment="fix(word): messages error and fix bug switch dark mode" />
+    <list default="true" id="68a95085-dc9b-4c3e-ba51-c1b5d45b5b6d" name="Changes" comment="fix(play-button): change size">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(general)/main/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(general)/main/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SearchTypographies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SearchTypographies.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +90,7 @@
       <workItem from="1741464970395" duration="3024000" />
       <workItem from="1741531223916" duration="7802000" />
       <workItem from="1741539112886" duration="2282000" />
-      <workItem from="1741557050351" duration="9386000" />
+      <workItem from="1741557050351" duration="10442000" />
     </task>
     <task id="LOCAL-00001" summary="temp">
       <option name="closed" value="true" />
@@ -160,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741566498428</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix(play-button): change size">
+      <option name="closed" value="true" />
+      <created>1741566715282</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741566715282</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +184,7 @@
     <MESSAGE value="new" />
     <MESSAGE value="feat(word): finish without history service" />
     <MESSAGE value="fix(word): messages error and fix bug switch dark mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(word): messages error and fix bug switch dark mode" />
+    <MESSAGE value="fix(play-button): change size" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(play-button): change size" />
   </component>
 </project>
