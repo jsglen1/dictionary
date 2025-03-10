@@ -63,7 +63,7 @@ export function DialogHistory({onSearchWord}: Props) {
             <DialogClose asChild>
               <Button
                 type="button"
-                className='hover:cursor-pointer max-w-[7rem] ml-auto bg-purple-900 hover:bg-purple-800'
+                className='hover:cursor-pointer max-w-[7rem] ml-auto bg-purple-900 hover:bg-purple-800 dark:text-white'
               >
                 Close
               </Button>
@@ -73,7 +73,7 @@ export function DialogHistory({onSearchWord}: Props) {
           {wordHistory.length > 0 && (
             <Button
               type="button"
-              className='hover:cursor-pointer max-w-[7rem] ml-auto bg-purple-900 hover:bg-purple-800'
+              className='hover:cursor-pointer max-w-[7rem] ml-auto bg-purple-900 hover:bg-purple-800 dark:text-white'
               onClick={handleClearHistory}
             >
               Clear History
