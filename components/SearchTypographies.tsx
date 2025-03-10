@@ -23,14 +23,14 @@ export default function SearchTypographies() {
       setWord(word);
       setError("");
     } else {
-      setError("Solo se permiten letras");
+      setError("Only letters are allowed");
     }
   }
 
   const handleKeyDown = async (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter") {
       if (!word.trim()) {
-        setError("Campo inválido");
+        setError("Invalid field");
         return;
       }
 
@@ -38,7 +38,7 @@ export default function SearchTypographies() {
         const descriptionByWord: WordResponse = await requestWord(word);
         dispatch(onChangeWord(descriptionByWord));
       } catch {
-        setError("No se pudo obtener la palabra");
+        setError("English words only not found");
         dispatch(onChangeWord([]))
       }
     }

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68a95085-dc9b-4c3e-ba51-c1b5d45b5b6d" name="Changes" comment="new" />
+    <list default="true" id="68a95085-dc9b-4c3e-ba51-c1b5d45b5b6d" name="Changes" comment="feat(word): finish without history service">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SearchTypographies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SearchTypographies.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SwitchDark.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SwitchDark.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +91,7 @@
       <workItem from="1741464970395" duration="3024000" />
       <workItem from="1741531223916" duration="7802000" />
       <workItem from="1741539112886" duration="2282000" />
-      <workItem from="1741557050351" duration="8027000" />
+      <workItem from="1741557050351" duration="9054000" />
     </task>
     <task id="LOCAL-00001" summary="temp">
       <option name="closed" value="true" />
@@ -136,7 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741565040494</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat(word): finish without history service">
+      <option name="closed" value="true" />
+      <created>1741565146237</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741565146237</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat(word): finish without history service">
+      <option name="closed" value="true" />
+      <created>1741565284773</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741565284773</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +167,7 @@
     <MESSAGE value="temp" />
     <MESSAGE value="temp funcional" />
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="feat(word): finish without history service" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(word): finish without history service" />
   </component>
 </project>
