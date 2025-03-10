@@ -28,7 +28,7 @@ export default function PlayButton({phonetics}: Props) {
 
   return (
     <CgPlayButton
-      size={80}
+      size={60}
       className='text-purple-600 bg-purple-200 rounded-full cursor-pointer'
       onClick={handlePlay}
     />
