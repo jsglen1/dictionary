@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68a95085-dc9b-4c3e-ba51-c1b5d45b5b6d" name="Changes" comment="temp 2">
+    <list default="true" id="68a95085-dc9b-4c3e-ba51-c1b5d45b5b6d" name="Changes" comment="finish">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DialogHistory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/DialogHistory.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/word/wordSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/word/wordSlice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/GLEN/Desktop/dictionary&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -212,7 +210,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741573407572</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="finish">
+      <option name="closed" value="true" />
+      <created>1741574121092</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1741574121092</updated>
+    </task>
+    <task id="LOCAL-00017" summary="finish">
+      <option name="closed" value="true" />
+      <created>1741574336624</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1741574336624</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +241,7 @@
     <MESSAGE value="fix(search-button): add event click" />
     <MESSAGE value="temp" />
     <MESSAGE value="temp 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="temp 2" />
+    <MESSAGE value="finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish" />
   </component>
 </project>

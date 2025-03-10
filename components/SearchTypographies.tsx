@@ -66,7 +66,7 @@ export default function SearchTypographies() {
 
   return (
     <div className='flex items-center justify-center p-2 relative'>
-      <div className='mr-2'>
+      <div className='mr-2 mb-auto pb-auto'>
         <DialogHistory onSearchWord={onSearchWord}/>
       </div>
 
