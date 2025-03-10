@@ -4,8 +4,9 @@ import {Input} from "@/components/ui/input";
 import React, {ChangeEvent, useState} from "react";
 import {WordResponse} from "@/interfaces/word.interface";
 import {useDispatch} from "react-redux";
-import {onChangeWord} from "@/store/word/wordSlice";
+import {addWordToHistory, onChangeWord} from "@/store/word/wordSlice";
 import {CiSearch} from "react-icons/ci";
+import {DialogHistory} from "@/components/DialogHistory";
 
 const URL_DICTIONARY = "https://api.dictionaryapi.dev/api/v2/entries/en";
 
@@ -28,7 +29,7 @@ export default function SearchTypographies() {
     }
   }
 
-  const handleSearch = async () => {
+  const handleSearch = async (word: string) => {
     if (!word.trim()) {
       setError("Invalid field");
       return;
@@ -37,6 +38,7 @@ export default function SearchTypographies() {
     try {
       const descriptionByWord: WordResponse = await requestWord(word);
       dispatch(onChangeWord(descriptionByWord));
+      dispatch(addWordToHistory(word));
     } catch {
       setError("English words only, not found");
       dispatch(onChangeWord([]))
@@ -45,7 +47,7 @@ export default function SearchTypographies() {
 
   const handleKeyDown = async (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter") {
-      handleSearch().then()
+      handleSearch(word).then()
     }
   };
 
@@ -57,8 +59,17 @@ export default function SearchTypographies() {
     return response.json();
   };
 
+  const onSearchWord = (word: string) => {
+    setWord(word)
+    handleSearch(word).then()
+  }
+
   return (
     <div className='flex items-center justify-center p-2 relative'>
+      <div className='mr-2'>
+        <DialogHistory onSearchWord={onSearchWord}/>
+      </div>
+
       <div className='w-full flex flex-col space-y-2'>
         <Input
           type="text"
@@ -74,7 +85,7 @@ export default function SearchTypographies() {
       <CiSearch
         size={25}
         className='text-[#916AB5] absolute right-4 top-3 cursor-pointer'
-        onClick={handleSearch}
+        onClick={() => handleSearch(word).then()}
       />
     </div>
   )
