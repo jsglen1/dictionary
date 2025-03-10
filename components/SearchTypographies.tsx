@@ -38,7 +38,7 @@ export default function SearchTypographies() {
       const descriptionByWord: WordResponse = await requestWord(word);
       dispatch(onChangeWord(descriptionByWord));
     } catch {
-      setError("English words only not found");
+      setError("English words only, not found");
       dispatch(onChangeWord([]))
     }
   }
